@@ -75,11 +75,6 @@ const ContactSection: React.FC = () => {
             <ArrowUpRight className="relative z-10 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
          </a>
 
-         <div className="mt-24 flex flex-col md:flex-row justify-between items-center w-full gap-8 pt-8 border-t border-gray-100 opacity-60">
-            <p className="text-sm font-bold tracking-widest text-gray-400 uppercase">
-               © 2026 Crafted with Designer DNA & AI Infra by YourName
-            </p>
-         </div>
 
       </div>
     </section>
