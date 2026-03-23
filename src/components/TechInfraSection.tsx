@@ -56,7 +56,7 @@ const TechInfraSection: React.FC = () => {
     <section ref={containerRef} id="tech-infra" className="relative min-h-[150vh] flex flex-col md:flex-row items-start transition-colors duration-1000">
       
       {/* Left: Sticky Terminal */}
-      <div className="sticky top-0 h-screen w-full md:w-1/2 flex items-center justify-center p-6 md:p-12 lg:p-24 overflow-hidden">
+      <div className="relative md:sticky top-0 min-h-[50vh] md:h-screen w-full md:w-1/2 flex items-center justify-center p-6 py-12 md:p-12 lg:p-24 overflow-hidden z-10">
         <div 
           ref={terminalRef}
           className="w-full h-[400px] md:h-auto bg-[#0F0F0F] rounded-2xl shadow-2xl border border-gray-800 p-6 md:p-10 font-mono text-sm leading-relaxed overflow-hidden flex flex-col"
