@@ -56,6 +56,10 @@ const ContactSection: React.FC = () => {
          </div>
 
 
+         <h2 ref={titleRef} className="text-4xl md:text-5xl font-sans font-black text-gray-900 mb-6 tracking-tighter">
+            开始新的进化
+         </h2>
+
          <p className="text-base md:text-xl text-gray-400 font-sans font-light max-w-2xl mx-auto mb-10 leading-relaxed">
             "从职业原点到AI未来，我的进化永不止步。无论是探讨AIGC深度工作流，还是寻找顶尖的视觉交付伙伴，随时欢迎交流。"
          </p>
