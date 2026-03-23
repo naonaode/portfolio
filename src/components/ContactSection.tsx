@@ -52,7 +52,7 @@ const ContactSection: React.FC = () => {
                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00BFA5] opacity-75"></span>
                <span className="relative inline-flex rounded-full h-3 w-3 bg-[#00BFA5]"></span>
             </span>
-            <span className="text-xs font-bold tracking-[0.2em] uppercase text-gray-500">开放新机会 · 寻找创意合作</span>
+            <span className="text-xs font-bold tracking-[0.2em] uppercase text-gray-500">Tel:185 158 33390</span>
          </div>
 
 
